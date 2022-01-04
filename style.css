@@ -2,7 +2,7 @@ body{
     margin: 0 0;
 }
 .header {
-    background-color: saddlebrown;
+    background-color: rgb(0, 162, 255);
     height: 50px;
 }
 .header .url ul a{
@@ -35,6 +35,8 @@ body{
     justify-content: space-between;
     margin-top: 50px;
     clear: both;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
 .half-width-banner{
     width: 50%;
