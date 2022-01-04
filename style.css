@@ -1,0 +1,48 @@
+body{
+    margin: 0 0;
+}
+.header {
+    background-color: saddlebrown;
+    height: 50px;
+}
+.header .url ul a{
+    text-decoration: none;
+}
+.header .url ul{
+    list-style-type: none;
+}
+.header .url ul{
+    display: flex;
+    /* justify-content: space-between; */
+    width: 50%;
+    float: right;
+}
+.header .url ul li{
+    padding: 0px 50px;
+}
+.tanim-istiak{
+    color: purple;
+}
+.banner .banner-text h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+}
+.banner .banner-text h3{
+    color: sandybrown;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    clear: both;
+}
+.half-width-banner{
+    width: 50%;
+}
+.banner .banner-image img{
+    height: 100%;
+    width: 100%;
+}
+.banner .banner-text {
+    padding-left: 5%;
+}
